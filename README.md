@@ -1,13 +1,15 @@
 # Hyprland Config
-* Software in use 
-			Kitty 
-			Rofi 
-			Hyprlock
-			Hyprpaper
+* Software in use
+***
+* Kitty 
+* Rofi 
+* Hyprlock
+* Hyprpaper
 * Fonts
-CaskaydiaCoveNerdFont --> Terminal font
-JetBrains Mono Nerd Font Mono --> Hyprlock font
-JetbrainsMono Nerd Font --> Waybar font
+***
+* CaskaydiaCoveNerdFont --> Terminal font
+* JetBrains Mono Nerd Font Mono --> Hyprlock font
+* JetbrainsMono Nerd Font --> Waybar font
 
 ***
 ## Screenshots
