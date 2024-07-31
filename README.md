@@ -13,13 +13,13 @@ JetbrainsMono Nerd Font --> Waybar font
 ## Screenshots
 ![30-07-2024-13:48:14.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
 
-![30-07-2024-13:48:22.png](:/264e0ae195674141abc22811bd4057ab)
+![30-07-2024-13:48:22.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
 
-![30-07-2024-14:14:28.png](:/b63d256125654f15bcf0b1f9fe0df219)
+![30-07-2024-14:14:28.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
 
-![vlcsnap-2024-07-30-13h52m48s405.png](:/007379f80ccf451cabaa8e417a3ab543)
+![vlcsnap-2024-07-30-13h52m48s405.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
 
-![30-07-2024-12:05:39.png](:/2e82311bd98f468988d7fae119caad27)
+![30-07-2024-12:05:39.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
 
 ![31-07-2024-120741.png](:/396e7b88a5104616bd1afbd6a9245adc)
 
