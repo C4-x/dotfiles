@@ -1,0 +1,133 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/launcher","hyprland/workspaces","hyprland/window"],
+	"modules-center": ["clock"],
+	"modules-right": ["backlight","custom/bluelight","pulseaudio","power-profiles-daemon" ,"battery","tray","custom/power"],
+	
+	"pulseaudio": {
+		"tooltip": true,
+		"scroll-step": 5,
+    "format": "{icon}  {volume}%",
+    "format-muted": "🔇Muted",
+		"on-click":"wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+		"format-icons": {
+      "muted": ["🔇"],
+      "default": ["", "", ""]
+		}
+	},
+  "custom/bluelight": {
+    "format": "{icon}",
+    "tooltip": true,
+    "tooltip-format":"Bluelight-filter",
+    "on-click":"exec wlsunset -o eDP-1 -t 3000 -T 3500",
+    "on-click-right":"pkill wlsunset",
+    "format-icons": {
+      "default": ["👁"]
+    }
+  },
+  "hyprland/window": {
+        "format":"{title}",
+        "max-length": 80,
+        "tooltip": false
+    },
+
+    "hyprland/workspaces": {
+		"num-tags": 6
+
+    },
+	"network": {
+		"tooltip": true,
+		"format-wifi": "  {essid}",
+		"format-ethernet": "",
+    "on-click": "alacritty -e nmtui"
+	},
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1,
+        "on-scroll-up": "brigthnessctl set +5%",
+		"on-scroll-down": "brigthnessctl set 5%-"
+	},
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+	"tray":{
+		"icon-size":18,
+		"spacing": 10
+	},
+    "clock": {
+      "format": "{:%a %d-%b %H:%M}",
+        "format-alt": "{:%d/%m/%Y %A}",
+       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "calendar": {
+    "format": {
+      "months": "<span color='#ffead3'><b>{}</b></span>",
+      "today": "<span color='#ff6699'><b>{}</b></span>"
+    }
+  }
+    },
+      "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+
+    "cpu": {
+        "interval": 15,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 30,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "custom/media": {
+        "interval": 30,
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 20,
+        "format-icons": {
+            "spotify": " ",
+            "default": " "
+        },
+        "escape": true,
+        "exec": "$home/.config/system_scripts/mediaplayer.py 2> /dev/null",
+        "on-click": "playerctl play-pause"
+    },
+    "custom/launcher":{
+        "format": " ",
+        "on-click": "~/.config/rofi/launchers/type-2/launcher.sh",
+        "on-click-right": "killall rofi"
+    },
+    "custom/power":{
+        "format": " ",
+        "on-click": "bash ~/.config/rofi/powermenu/type-2/powermenu.sh"
+    },
+    "custom/updates":{
+        "format": "{} update(s)",
+        "exec": "checkupdates | wc -l",
+        "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
+        "interval": 15,
+        "on-click": "alacritty -e paru -syu && notify-send 'the system has been updated' "
+    },
+    "custom/wallpaper":{
+        "format":" ",
+        "on-click": "bash ~/.config/system_scripts/pkill_bc"
+    }
+}
