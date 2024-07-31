@@ -11,7 +11,7 @@ JetbrainsMono Nerd Font --> Waybar font
 
 ***
 ## Screenshots
-![30-07-2024-13:48:14.png](:/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
+![30-07-2024-13:48:14.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
 
 ![30-07-2024-13:48:22.png](:/264e0ae195674141abc22811bd4057ab)
 
