@@ -1,16 +1,17 @@
 # Hyprland Config
-* Software in use
-***
-* Kitty 
-* Rofi 
-* Hyprlock
-* Hyprpaper
-* Fonts
-***
-* CaskaydiaCoveNerdFont --> Terminal font
-* JetBrains Mono Nerd Font Mono --> Hyprlock font
-* JetbrainsMono Nerd Font --> Waybar font
+## Prerequisites
+### packages
+`hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset clipse dunst nautilus rofi-wayland`
 
+### Fonts
+CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font
+
+## Installation
+`$ git clone https://www.github.com/C4-x/dotfiles`
+`$ cd dotfiles`
+**Warning: executing the following command will replace your current config, make sure to backup beforehand**
+`$ cp -r * ~/.config`
+**Logout and log back in**
 ***
 ## Screenshots
 ![30-07-2024-13:48:14.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
