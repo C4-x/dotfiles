@@ -4,7 +4,7 @@
 `hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset clipse dunst nautilus rofi-wayland`
 
 ### Fonts
-CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font
+CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font 
 
 ## Installation
 `$ git clone https://www.github.com/C4-x/dotfiles`
@@ -16,6 +16,8 @@ CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font
 `$ cp -r * ~/.config`
 
 **Logout and log back in**
+
+powermenu refcence: [](https://github.com/adi1090x/rofi/tree/master)
 ***
 ## Screenshots
 ![30-07-2024-13:48:14.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
