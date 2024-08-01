@@ -8,8 +8,11 @@ CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font
 
 ## Installation
 `$ git clone https://www.github.com/C4-x/dotfiles`
+
 `$ cd dotfiles`
+
 **Warning: executing the following command will replace your current config, make sure to backup beforehand**
+
 `$ cp -r * ~/.config`
 **Logout and log back in**
 ***
