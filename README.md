@@ -14,6 +14,7 @@ CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font
 **Warning: executing the following command will replace your current config, make sure to backup beforehand**
 
 `$ cp -r * ~/.config`
+
 **Logout and log back in**
 ***
 ## Screenshots
