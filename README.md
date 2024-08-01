@@ -17,7 +17,7 @@ CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font
 
 **Logout and log back in**
 
-powermenu refcence: [](https://github.com/adi1090x/rofi/tree/master)
+powermenu refcence: https://github.com/adi1090x/rofi/
 ***
 ## Screenshots
 ![30-07-2024-13:48:14.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
