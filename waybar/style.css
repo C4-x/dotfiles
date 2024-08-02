@@ -273,3 +273,17 @@ window#waybar.hidden {
 	color: #161320;
 	background: #F2CDCD;
 }
+
+#custom-notification {
+	margin-top: 6px;
+	margin-left: 6px;
+	padding-left: 8px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	border-radius: 10px;
+	transition: none;
+	color: #B5E8E0;
+	background: #161320;
+}
+
+
