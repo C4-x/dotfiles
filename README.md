@@ -1,10 +1,10 @@
 # Hyprland Config
 ## Prerequisites
 ### packages
-`hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset clipse dunst nautilus rofi-wayland`
-
+`$ sudo pacman -S hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset swaync swaync-client nautilus`
+`$ yay -S clipse rofi-wayland`
 ### Fonts
-CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font 
+CaskaydiaCoveNerdFont, JetbrainsMono Nerd Font , 
 
 ## Installation
 `$ git clone https://www.github.com/C4-x/dotfiles`
@@ -21,6 +21,8 @@ powermenu refcence: https://github.com/adi1090x/rofi/
 ***
 ## Screenshots
 ![30-07-2024-13:48:14.png](/Screenshots/vlcsnap-2024-07-30-13h52m48s405.png)
+
+![Notifications](/Screenshots/Swaync.png)
 
 ![30-07-2024-13:48:22.png](/Screenshots/30-07-2024-12:05:39.png)
 
