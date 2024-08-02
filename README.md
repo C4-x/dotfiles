@@ -3,9 +3,9 @@
 ## Prerequisites
 ### packages
 ```
-$ sudo pacman -S hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset swaync swaync-client nautilus
+$ sudo pacman -S hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset swaync nautilus
 
-$ yay -S clipse rofi-wayland
+$ yay -S clipse rofi-wayland 
 
 ```
 ### Fonts
