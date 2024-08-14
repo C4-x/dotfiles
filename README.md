@@ -1,14 +1,14 @@
-# Hyprland Config
-### Changes in v2 --> implemented swaync, fullscreen shortcut, maximize shortcut
+# Hyprland Config V2
 ## Prerequisites
 ### packages
 ```
-$ sudo pacman -S hyprland hypridle hyprpaper hyprlock waybar kitty alacritty grim slurp wlsunset swaync nautilus
+$ sudo pacman -S hyprland hypridle hyprpaper hyprlock waybar kitty alacritty swaync nautilus gammastep
 
-$ yay -S clipse rofi-wayland 
+$ yay -S clipse rofi-wayland grimshot 
 
 ```
 ### Fonts
+Install [Jetbrains Mono nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip) 
 copy contents of [fonts](https://github.com/C4-x/dotfiles/tree/master/fonts) into ~/.local/share/fonts 
 
 ## Installation
