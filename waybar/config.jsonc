@@ -19,8 +19,8 @@
     "format": "{icon}",
     "tooltip": true,
     "tooltip-format":"Bluelight-filter",
-    "on-click":"exec wlsunset -o eDP-1 -t 3000 -T 3500",
-    "on-click-right":"pkill wlsunset",
+    "on-click":"exec gammastep -O 3500",
+    "on-click-right":"pkill gammastep",
     "format-icons": {
       "default": ["👁"]
     }
