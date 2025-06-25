@@ -12,7 +12,7 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-2"
-theme='style-1'
+theme='style-5'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -98,8 +98,8 @@ case ${chosen} in
     $lock)
 		if [[ -x '/usr/bin/betterlockscreen' ]]; then
 			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
+		elif [[ -x '/usr/bin/hyprlock' ]]; then
+      hyprlock
 		fi
         ;;
     $suspend)

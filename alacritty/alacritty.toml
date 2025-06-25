@@ -1,0 +1,11 @@
+
+[window]
+decorations = "None"
+opacity = 0.85
+
+[font]
+normal = {family ="CaskaydiaCoveNerdFont",style ="Regular" }
+size = 10
+
+[general]
+live_config_reload = true

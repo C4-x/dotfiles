@@ -80,7 +80,7 @@ window#waybar.hidden {
 	background: #bd93f9;
 }
 
-#pulseaudio{
+#pulseaudio {
 	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 10px;
@@ -88,10 +88,9 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-  color: #B5E8E0;
-	background: #161320 ;
+	color: #1A1826;
+	background: #FAE3B0;
 }
-
 
 #battery {
 	margin-top: 6px;
@@ -101,9 +100,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-
-  color: #B5E8E0;
-	background: #161320
+	color: #161320;
+	background: #B5E8E0;
 }
 
 #power-profiles-daemon {
@@ -114,20 +112,20 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-  color: #B5E8E0;
-	background: #161320
+  color: #161320;
+	background: #B5E8E0;
 }
 
 
 
 #battery.charging, #battery.plugged {
-  color: #B5E8E0;
-	background: #161320
+	color: #161320;
+    background-color: #B5E8E0;
 }
 
 #battery.critical:not(.charging) {
-  color: #B5E8E0;
-	background: #161320;
+    background-color: #B5E8E0;
+    color: #161320;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -150,9 +148,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	
-  color: #B5E8E0;
-	background: #161320
+	color: #161320;
+	background: #F8BD96;
 }
 
 
@@ -164,9 +161,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	
-  color: #B5E8E0;
-	background: #161320
+	color: #161320;
+	background: #F8BD96;
 }
 #clock {
 	margin-top: 6px;
@@ -176,9 +172,9 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #B5E8E0;
-  background: #161320;
-	/*background: #ABE9B3;background: #1A1826;*/
+	color: #161320;
+	background: #ABE9B3;
+	/*background: #1A1826;*/
 }
 
 #memory {
@@ -224,8 +220,7 @@ window#waybar.hidden {
 	padding-right: 5px;
 	border-radius: 10px;
 	transition: none;
-  color: #B5E8E0;
-    /*color: #89DCEB;*/
+    color: #89DCEB;
     background: #161320;
 }
 
@@ -239,8 +234,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: none;
-	color: #F28FAD;
-	background: #161320;
+	color: #161320;
+	background: #F28FAD;
 }
 
 #custom-wallpaper {

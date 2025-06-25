@@ -1,5 +1,9 @@
 {
 	"layer": "top",
+  "position": "top",
+  //"width": 0.1,
+  //"margin-right": 2,
+  "reload_on_style_change":true,
 	"modules-left": ["custom/launcher","hyprland/workspaces","hyprland/window"],
 	"modules-center": ["clock"],
 	"modules-right": ["backlight","custom/bluelight","pulseaudio","power-profiles-daemon" ,"battery","tray","custom/notification","custom/power"],
@@ -43,7 +47,8 @@
 	},
 	"backlight": {
 		"tooltip": false,
-		"format": " {}%",
+		"format": "{icon} {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
 		"interval":1,
         "on-scroll-up": "brigthnessctl set +5%",
 		"on-scroll-down": "brigthnessctl set 5%-"
@@ -65,9 +70,10 @@
 		"spacing": 10
 	},
     "clock": {
+      "timezone":"Asia/Kolkata",
       "format": "{:%a %d-%b %H:%M}",
-        "format-alt": "{:%d/%m/%Y %A}",
-       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format-alt": "{:%d/%m/%Y %A}",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
       "calendar": {
     "format": {
       "months": "<span color='#ffead3'><b>{}</b></span>",
